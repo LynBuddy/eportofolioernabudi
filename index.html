@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio PPG | Guru Profesional</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@400;600;700&family=Dancing+Script:wght@400;600;700&family=Caveat:wght@400;700&family=Pacifico&family=Poppins:wght@300;400;500;600;700&family=Azeret+Mono:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Library (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Cosmic Background -->
+    <div id="cosmic-background">
+        <canvas id="starfield"></canvas>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">✦ E-Portfolio ✦</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#profil" class="nav-link">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#analisis" class="nav-link">Analisis Artefak</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#siklus" class="nav-link">Penilaian</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#model-guru" class="nav-link">Model Guru</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: PROFIL -->
+    <section id="profil" class="section profil-section">
+        <div class="section-content">
+            <!-- Hero Section -->
+            <div class="hero" data-aos="fade-up">
+                <h1 class="hero-title">Erna Budi Astuti</h1>
+                <p class="hero-subtitle">Program Pendidikan Guru (PPG) | Guru Profesional Masa Depan</p>
+            </div>
+
+            <!-- Origin & Uniqueness Section -->
+            <div class="origin-story" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="section-title">Asal & Keunikan Daerah</h2>
+                <div class="story-card">
+                    <p class="handwriting-text">
+                        Saya adalah pendidik yang bersemangat dengan akar yang kuat dari budaya lokal yang kaya. 
+                        Setiap pengalaman mengajar adalah perjalanan untuk menghubungkan nilai-nilai tradisional dengan 
+                        inovasi modern, menciptakan ruang belajar yang bermakna dan inklusif.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Inspiration & Quotes Section -->
+            <div class="inspiration-section" data-aos="fade-up" data-aos-delay="300">
+                <h2 class="section-title">Inspirasi & Moto</h2>
+                <div class="constellation-cards">
+                    <div class="constellation-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="card-icon">✨</div>
+                        <h3>Alasan Menjadi Guru</h3>
+                        <p class="handwriting-text">
+                            "Mengajar adalah seni membentuk masa depan melalui setiap interaksi bermakna dengan siswa."
+                        </p>
+                    </div>
+                    <div class="constellation-card" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="card-icon">🌟</div>
+                        <h3>Moto Pengajaran</h3>
+                        <p class="handwriting-text">
+                            "Ciptakan lingkungan di mana setiap siswa merasa dihargai, dipahami, dan diberdayakan untuk berkembang."
+                        </p>
+                    </div>
+                    <div class="constellation-card" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="card-icon">🚀</div>
+                        <h3>Visi Pendidikan</h3>
+                        <p class="handwriting-text">
+                            "Menjadi pendidik yang transformatif, menggabungkan pedagogi berbasis penelitian dengan sentuhan kemanusiaan."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: ANALISIS ARTEFAK -->
+    <section id="analisis" class="section analisis-section">
+        <div class="section-content">
+            <h2 class="section-title" data-aos="fade-up">Analisis Artefak Pembelajaran</h2>
+            
+            <!-- Artifact Grid -->
+            <div class="artifact-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="artifact-card" data-artifact="rpp">
+                    <div class="artifact-icon">📋</div>
+                    <h3>Rencana Pelaksanaan Pembelajaran</h3>
+                    <p>RPP Inovatif & Terstruktur</p>
+                    <button class="btn-artifact">Lihat Detail</button>
+                </div>
+                <div class="artifact-card" data-artifact="media">
+                    <div class="artifact-icon">🎨</div>
+                    <h3>Media Pembelajaran</h3>
+                    <p>Visual & Interaktif</p>
+                    <button class="btn-artifact">Lihat Detail</button>
+                </div>
+                <div class="artifact-card" data-artifact="video">
+                    <div class="artifact-icon">🎬</div>
+                    <h3>Dokumentasi Video</h3>
+                    <p>Proses Pembelajaran Real</p>
+                    <button class="btn-artifact">Lihat Detail</button>
+                </div>
+                <div class="artifact-card" data-artifact="siswa">
+                    <div class="artifact-icon">👥</div>
+                    <h3>Hasil Kerja Siswa</h3>
+                    <p>Produk & Prestasi Siswa</p>
+                    <button class="btn-artifact">Lihat Detail</button>
+                </div>
+            </div>
+
+            <!-- Deep Analysis Section -->
+            <div class="analysis-cards" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="subsection-title">Analisis Mendalam</h3>
+                
+                <div class="analysis-grid">
+                    <div class="glass-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card-header">
+                            <span class="card-icon">⚠️</span>
+                            <h4>Kendala & Hambatan</h4>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li>Heterogenitas kemampuan siswa</li>
+                                <li>Keterbatasan sumber daya media</li>
+                                <li>Manajemen waktu dalam pembelajaran</li>
+                                <li>Engagement siswa di era digital</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="glass-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="card-header">
+                            <span class="card-icon">🎓</span>
+                            <h4>Teori Pedagogi</h4>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li>Konstruktivisme - Siswa sebagai pembuat makna</li>
+                                <li>Scaffolding - Dukungan bertahap</li>
+                                <li>Multiple Intelligences (Gardner)</li>
+                                <li>Pembelajaran Berbasis Masalah (PBL)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="glass-card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card-header">
+                            <span class="card-icon">🎯</span>
+                            <h4>Faktor Keberhasilan</h4>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li>Persiapan materi yang matang</li>
+                                <li>Lingkungan pembelajaran yang positif</li>
+                                <li>Strategi diferensiasi yang efektif</li>
+                                <li>Umpan balik konstruktif dan tepat waktu</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="glass-card" data-aos="fade-up" data-aos-delay="700">
+                        <div class="card-header">
+                            <span class="card-icon">🔄</span>
+                            <h4>Perubahan Komponen</h4>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li>Modifikasi strategi pembelajaran</li>
+                                <li>Pengembangan media yang lebih menarik</li>
+                                <li>Diversifikasi penilaian</li>
+                                <li>Peningkatan interaksi siswa-guru</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: LAMPIRAN PENILAIAN (SIKLUS 1, 2, 3) -->
+    <section id="siklus" class="section siklus-section">
+        <div class="section-content">
+            <h2 class="section-title" data-aos="fade-up">Penilaian Pembelajaran Siklus</h2>
+            
+            <!-- Cycle Tabs -->
+            <div class="cycle-tabs" data-aos="fade-up" data-aos-delay="200">
+                <button class="tab-btn active" data-cycle="1">Siklus I</button>
+                <button class="tab-btn" data-cycle="2">Siklus II</button>
+                <button class="tab-btn" data-cycle="3">Siklus III</button>
+            </div>
+
+            <!-- Cycle Content -->
+            <div class="cycle-content" data-aos="fade-up" data-aos-delay="300">
+                <!-- SIKLUS 1 -->
+                <div class="cycle-panel active" data-cycle="1">
+                    <div class="assessment-dashboard">
+                        <div class="assessment-card">
+                            <h3>Instrumen Penilaian 7 - Perangkat (Guru Pamong)</h3>
+                            <table class="assessment-table">
+                                <thead>
+                                    <tr>
+                                        <th>Komponen</th>
+                                        <th>Deskripsi</th>
+                                        <th>Skor</th>
+                                        <th>Catatan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Silabus</td>
+                                        <td>Kesesuaian dengan kurikulum</td>
+                                        <td><span class="badge badge-excellent">95</span></td>
+                                        <td>Sangat baik, tertata rapi</td>
+                                    </tr>
+                                    <tr>
+                                        <td>RPP</td>
+                                        <td>Rencana pembelajaran terstruktur</td>
+                                        <td><span class="badge badge-excellent">92</span></td>
+                                        <td>Komponen lengkap, inovatif</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Media</td>
+                                        <td>Penggunaan media pembelajaran</td>
+                                        <td><span class="badge badge-good">88</span></td>
+                                        <td>Menarik dan relevan</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Evaluasi</td>
+                                        <td>Instrumen penilaian siswa</td>
+                                        <td><span class="badge badge-excellent">90</span></td>
+                                        <td>Komprehensif dan terukur</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="assessment-card">
+                            <h3>Instrumen Penilaian 8 - Praktik Mengajar (DPL)</h3>
+                            <table class="assessment-table">
+                                <thead>
+                                    <tr>
+                                        <th>Aspek</th>
+                                        <th>Deskripsi</th>
+                                        <th>Skor</th>
+                                        <th>Catatan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Pendahuluan</td>
+                                        <td>Pembukaan & apersepsi</td>
+                                        <td><span class="badge badge-excellent">91</span></td>
+                                        <td>Menarik perhatian siswa</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inti Pembelajaran</td>
+                                        <td>Pelaksanaan strategi</td>
+                                        <td><span class="badge badge-good">87</span></td>
+                                        <td>Terstruktur, perlu peningkatan interaksi</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pengelolaan Kelas</td>
+                                        <td>Manajemen waktu & disiplin</td>
+                                        <td><span class="badge badge-excellent">89</span></td>
+                                        <td>Kondusif dan tertib</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Penutup</td>
+                                        <td>Refleksi & kesimpulan</td>
+                                        <td><span class="badge badge-good">86</span></td>
+                                        <td>Efektif merangkum pembelajaran</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Score Summary -->
+                    <div class="score-summary" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="score-box">
+                            <span class="score-label">Rata-rata Perangkat</span>
+                            <span class="score-value">91.25</span>
+                            <span class="score-status">Sangat Baik ⭐</span>
+                        </div>
+                        <div class="score-box">
+                            <span class="score-label">Rata-rata Praktik</span>
+                            <span class="score-value">88.25</span>
+                            <span class="score-status">Baik ✓</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SIKLUS 2 -->
+                <div class="cycle-panel" data-cycle="2">
+                    <div class="assessment-dashboard">
+                        <div class="assessment-card">
+                            <h3>Instrumen Penilaian 7 - Perangkat (Guru Pamong)</h3>
+                            <table class="assessment-table">
+                                <thead>
+                                    <tr>
+                                        <th>Komponen</th>
+                                        <th>Deskripsi</th>
+                                        <th>Skor</th>
+                                        <th>Catatan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Silabus</td>
+                                        <td>Kesesuaian dengan kurikulum</td>
+                                        <td><span class="badge badge-excellent">97</span></td>
+                                        <td>Sangat sempurna, terperinci</td>
+                                    </tr>
+                                    <tr>
+                                        <td>RPP</td>
+                                        <td>Rencana pembelajaran terstruktur</td>
+                                        <td><span class="badge badge-excellent">94</span></td>
+                                        <td>Inovasi meningkat signifikan</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Media</td>
+                                        <td>Penggunaan media pembelajaran</td>
+                                        <td><span class="badge badge-excellent">91</span></td>
+                                        <td>Lebih interaktif dan menarik</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Evaluasi</td>
+                                        <td>Instrumen penilaian siswa</td>
+                                        <td><span class="badge badge-excellent">93</span></td>
+                                        <td>Perbaikan signifikan</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="assessment-card">
+                            <h3>Instrumen Penilaian 8 - Praktik Mengajar (DPL)</h3>
+                            <table class="assessment-table">
+                                <thead>
+                                    <tr>
+                                        <th>Aspek</th>
+                                        <th>Deskripsi</th>
+                                        <th>Skor</th>
+                                        <th>Catatan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Pendahuluan</td>
+                                        <td>Pembukaan & apersepsi</td>
+                                        <td><span class="badge badge-excellent">93</span></td>
+                                        <td>Sangat efektif & engaging</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inti Pembelajaran</td>
+                                        <td>Pelaksanaan strategi</td>
+                                        <td><span class="badge badge-excellent">90</span></td>
+                                        <td>Interaksi siswa meningkat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pengelolaan Kelas</td>
+                                        <td>Manajemen waktu & disiplin</td>
+                                        <td><span class="badge badge-excellent">91</span></td>
+                                        <td>Sangat kondusif</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Penutup</td>
+                                        <td>Refleksi & kesimpulan</td>
+                                        <td><span class="badge badge-excellent">89</span></td>
+                                        <td>Lebih melibatkan siswa</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Score Summary -->
+                    <div class="score-summary" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="score-box">
+                            <span class="score-label">Rata-rata Perangkat</span>
+                            <span class="score-value">93.75</span>
+                            <span class="score-status">Sangat Baik ⭐</span>
+                        </div>
+                        <div class="score-box">
+                            <span class="score-label">Rata-rata Praktik</span>
+                            <span class="score-value">90.75</span>
+                            <span class="score-status">Sangat Baik ⭐</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SIKLUS 3 -->
+                <div class="cycle-panel" data-cycle="3">
+                    <div class="assessment-dashboard">
+                        <div class="assessment-card">
+                            <h3>Instrumen Penilaian 7 - Perangkat (Guru Pamong)</h3>
+                            <table class="assessment-table">
+                                <thead>
+                                    <tr>
+                                        <th>Komponen</th>
+                                        <th>Deskripsi</th>
+                                        <th>Skor</th>
+                                        <th>Catatan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Silabus</td>
+                                        <td>Kesesuaian dengan kurikulum</td>
+                                        <td><span class="badge badge-excellent">98</span></td>
+                                        <td>Sempurna, sangat detail</td>
+                                    </tr>
+                                    <tr>
+                                        <td>RPP</td>
+                                        <td>Rencana pembelajaran terstruktur</td>
+                                        <td><span class="badge badge-excellent">96</span></td>
+                                        <td>Sangat inovatif & terukur</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Media</td>
+                                        <td>Penggunaan media pembelajaran</td>
+                                        <td><span class="badge badge-excellent">94</span></td>
+                                        <td>Sangat interaktif & kreatif</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Evaluasi</td>
+                                        <td>Instrumen penilaian siswa</td>
+                                        <td><span class="badge badge-excellent">95</span></td>
+                                        <td>Sempurna & holistik</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="assessment-card">
+                            <h3>Instrumen Penilaian 8 - Praktik Mengajar (DPL)</h3>
+                            <table class="assessment-table">
+                                <thead>
+                                    <tr>
+                                        <th>Aspek</th>
+                                        <th>Deskripsi</th>
+                                        <th>Skor</th>
+                                        <th>Catatan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Pendahuluan</td>
+                                        <td>Pembukaan & apersepsi</td>
+                                        <td><span class="badge badge-excellent">95</span></td>
+                                        <td>Luar biasa menarik</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inti Pembelajaran</td>
+                                        <td>Pelaksanaan strategi</td>
+                                        <td><span class="badge badge-excellent">93</span></td>
+                                        <td>Kolaboratif & interaktif</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pengelolaan Kelas</td>
+                                        <td>Manajemen waktu & disiplin</td>
+                                        <td><span class="badge badge-excellent">94</span></td>
+                                        <td>Sangat profesional</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Penutup</td>
+                                        <td>Refleksi & kesimpulan</td>
+                                        <td><span class="badge badge-excellent">92</span></td>
+                                        <td>Mendalam & bermakna</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Score Summary -->
+                    <div class="score-summary" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="score-box">
+                            <span class="score-label">Rata-rata Perangkat</span>
+                            <span class="score-value">95.75</span>
+                            <span class="score-status">Sangat Baik ⭐⭐</span>
+                        </div>
+                        <div class="score-box">
+                            <span class="score-label">Rata-rata Praktik</span>
+                            <span class="score-value">93.5</span>
+                            <span class="score-status">Sangat Baik ⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: MODEL GURU MASA DEPAN -->
+    <section id="model-guru" class="section model-guru-section">
+        <div class="section-content">
+            <h2 class="section-title" data-aos="fade-up">Model Guru Profesional Masa Depan</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Roadmap Bintang: Misi, Kompetensi, dan Karakter</p>
+
+            <div class="star-roadmap" data-aos="fade-up" data-aos-delay="200">
+                <!-- Mission Pillar -->
+                <div class="roadmap-pillar">
+                    <div class="pillar-icon">🎯</div>
+                    <h3>Misi Pendidikan</h3>
+                    <div class="roadmap-items">
+                        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="item-number">1</div>
+                            <div class="item-content">
+                                <h4>Transformasi Pembelajaran</h4>
+                                <p>Menciptakan pembelajaran yang berpusat pada siswa dengan metode inovatif</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="item-number">2</div>
+                            <div class="item-content">
+                                <h4>Pemberdayaan Komunitas</h4>
+                                <p>Melibatkan keluarga dan masyarakat dalam pendidikan</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="500">
+                            <div class="item-number">3</div>
+                            <div class="item-content">
+                                <h4>Inklusivitas & Kesetaraan</h4>
+                                <p>Memastikan setiap siswa memiliki kesempatan yang sama</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Competencies Pillar -->
+                <div class="roadmap-pillar">
+                    <div class="pillar-icon">💡</div>
+                    <h3>Kompetensi Inti</h3>
+                    <div class="roadmap-items">
+                        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="item-number">1</div>
+                            <div class="item-content">
+                                <h4>Profesional Akademik</h4>
+                                <p>Menguasai konten, metodologi, dan teknologi pembelajaran terkini</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="item-number">2</div>
+                            <div class="item-content">
+                                <h4>Leadership & Inovasi</h4>
+                                <p>Memimpin perubahan dan mengembangkan solusi kreatif</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="500">
+                            <div class="item-number">3</div>
+                            <div class="item-content">
+                                <h4>Komunikasi & Kolaborasi</h4>
+                                <p>Membangun hubungan yang kuat dengan stakeholder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Character Pillar -->
+                <div class="roadmap-pillar">
+                    <div class="pillar-icon">⭐</div>
+                    <h3>Karakter Profesional</h3>
+                    <div class="roadmap-items">
+                        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="item-number">1</div>
+                            <div class="item-content">
+                                <h4>Integritas & Etika</h4>
+                                <p>Menjalankan tugas dengan kejujuran dan tanggung jawab moral</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="item-number">2</div>
+                            <div class="item-content">
+                                <h4>Empati & Kepedulian</h4>
+                                <p>Memahami kebutuhan siswa dan komunitas dengan hati</p>
+                            </div>
+                        </div>
+                        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="500">
+                            <div class="item-number">3</div>
+                            <div class="item-content">
+                                <h4>Komitmen Pembelajaran Berkelanjutan</h4>
+                                <p>Terus mengembangkan diri dan beradaptasi dengan perubahan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vision Statement -->
+            <div class="vision-statement" data-aos="fade-up" data-aos-delay="300">
+                <h3>Visi Guru Profesional</h3>
+                <p class="handwriting-text">
+                    "Saya berkomitmen menjadi seorang pendidik yang tidak hanya menguasai materi pembelajaran,
+                    tetapi juga memiliki hati yang besar untuk menciptakan dampak positif dalam kehidupan setiap siswa.
+                    Saya akan terus berinovasi, belajar, dan tumbuh bersama komunitas pendidikan untuk mewujudkan
+                    pendidikan berkualitas yang inklusif, bermakna, dan memberdayakan."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 E-Portfolio Erna Budi Astuti | Program Pendidikan Guru (PPG)</p>
+            <p>Membangun Guru Profesional, Menciptakan Masa Depan Cemerlang</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/starfield.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
